@@ -1,10 +1,10 @@
 baseURL: https://jsevedge.github.io
-languageCode: en-us
-title: Personal Musings
-theme: ananke
 enableEmoji: true
 enableRobotsTXT: true
+languageCode: en-us
 publishDir: public
+theme: ananke
+title: 'James Sevedge'
 menu:
   main:
   - identifier: about
@@ -18,10 +18,10 @@ menu:
     url: /blog/
     weight: 110
 params:
-  favicon: '/seattle.jpg'
-  description: ''
-  github: ''
-  linkedin: ''
+  favicon: '/hawaii.jpg'
+  description: 'James Sevedge'
+  github: 'https://github.com/jsevedge'
+  linkedin: 'http://linkedin.com/in/james-sevedge/'
   background_color_class: bg-black # http://tachyons.io/docs/themes/skins/
-  featured_image: "/seattle.jpg"
+  featured_image: "/motion_graphics.gif"
   recent_posts_number: 5

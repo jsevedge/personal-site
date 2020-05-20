@@ -1,9 +1,10 @@
 ---
 title: "Hello World"
 authors: ["James Sevedge"]
-meta_desc: "There always has to be a first blog post"
+meta_desc: ""
 date: 2020-05-20
 ---
 
-Hello, world!
-
+```python
+print("Hello World")
+```
