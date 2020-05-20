@@ -1,0 +1,16 @@
+baseURL: https://jsevedge.github.io
+languageCode: en-us
+title: Personal Musings
+theme: ananke
+menu:
+  main:
+  - identifier: about
+    name: About
+    title: About
+    url: /about/
+    weight: 100
+  - identifier: blog
+    name: Blog
+    title: Blog
+    url: /blog/
+    weight: 110
