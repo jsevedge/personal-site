@@ -2,6 +2,9 @@ baseURL: https://jsevedge.github.io
 languageCode: en-us
 title: Personal Musings
 theme: ananke
+enableEmoji: true
+enableRobotsTXT: true
+publishDir: public
 menu:
   main:
   - identifier: about
@@ -14,3 +17,11 @@ menu:
     title: Blog
     url: /blog/
     weight: 110
+params:
+  favicon: '/seattle.jpg'
+  description: ''
+  github: ''
+  linkedin: ''
+  background_color_class: bg-black # http://tachyons.io/docs/themes/skins/
+  featured_image: "/seattle.jpg"
+  recent_posts_number: 5
