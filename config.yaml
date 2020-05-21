@@ -7,21 +7,20 @@ theme: ananke
 title: 'James Sevedge'
 menu:
   main:
+  - identifier: articles
+    name: Articles
+    title: Articles
+    url: /post/
+    weight: 100
   - identifier: about
     name: About
     title: About
     url: /about/
-    weight: 100
-  - identifier: blog
-    name: Blog
-    title: Blog
-    url: /blog/
     weight: 110
 params:
-  favicon: '/hawaii.jpg'
+  background_color_class: bg-dark-gray # http://tachyons.io/docs/themes/skins/
   description: 'James Sevedge'
+  featured_image: "/seattle_sunset.jpg"
   github: 'https://github.com/jsevedge'
   linkedin: 'http://linkedin.com/in/james-sevedge/'
-  background_color_class: bg-black # http://tachyons.io/docs/themes/skins/
-  featured_image: "/motion_graphics.gif"
-  recent_posts_number: 5
+  recent_posts_number: 1
