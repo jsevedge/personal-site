@@ -3,7 +3,7 @@ enableEmoji: true
 enableRobotsTXT: true
 languageCode: en-us
 publishDir: public
-theme: ananke
+theme: custom
 title: 'James Sevedge'
 menu:
   main:
@@ -24,3 +24,4 @@ params:
   github: 'https://github.com/jsevedge'
   linkedin: 'http://linkedin.com/in/james-sevedge/'
   recent_posts_number: 1
+  googleAnalyticsID: 'G-Q5B427HWSJ' # Google Analytics 4 Measurement ID

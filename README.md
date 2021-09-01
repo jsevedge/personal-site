@@ -1,6 +1,11 @@
 # Introduction
 
-This is the source for a personal [site](https://jsevedge.github.io).  It uses [Hugo](https://gohugo.io) as the SSG.
+This is the source for my personal [site](https://jsevedge.github.io).  The SSG is [Hugo](https://gohugo.io).
+
+## Prerequisites
+
+- Pull in git submodules: `git submodule update --init --recursive`
+- Install hugo: `brew install hugo` (or your package manager of choice)
 
 ## Usage
 
