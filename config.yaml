@@ -23,5 +23,5 @@ params:
   featured_image: "/seattle_sunset.jpg"
   github: 'https://github.com/jsevedge'
   linkedin: 'http://linkedin.com/in/james-sevedge/'
-  recent_posts_number: 1
+  recent_posts_number: 2
   googleAnalyticsID: 'G-Q5B427HWSJ' # Google Analytics 4 Measurement ID

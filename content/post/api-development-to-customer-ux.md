@@ -5,7 +5,7 @@ meta_desc: ""
 date: 2020-05-20
 ---
 
-Creating an API that is well thought out, scales and adopts industry standards can be quite difficult.  Creating the API while keeping the end consumer User Experience (UX) at the forefront adds even more cognitive load, however the payoff is worth it in the long run to stay disciplined and consider it from the start.  Let's talk about what that flow might look like at a high level including some example tooling and processes.
+Creating an API that is well thought out, scales and adopts industry standards can be quite difficult.  Creating the API while keeping the end consumer User Experience (UX) at the forefront adds even more cognitive load, however the payoff is worth it to stay disciplined and consider it from the start.  Let's talk about what that flow might look like at a high level including some example tooling and processes.
 
 First let's assume you have a good API design in place which has been peer-reviewed and articulated in a human and machine readable format, for example if creating a REST API you may articulate this using [OpenAPI](https://openapis.org/), [API Blueprint](https://apiblueprint.org/) or some other similar mechanism.  In this example let's assume you have been using OpenAPI.
 
