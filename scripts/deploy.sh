@@ -3,7 +3,7 @@
 set -e
 
 # Build Site
-hugo
+HUGO_ENV="production" hugo
 
 # Publish Site
 cd public

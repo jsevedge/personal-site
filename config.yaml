@@ -10,13 +10,18 @@ menu:
   - identifier: articles
     name: Articles
     title: Articles
-    url: /post/
+    url: /articles/
     weight: 100
   - identifier: about
     name: About
     title: About
     url: /about/
     weight: 110
+  - identifier: contact
+    name: Contact
+    title: Contact
+    url: /contact/
+    weight: 120
 params:
   background_color_class: bg-dark-gray # http://tachyons.io/docs/themes/skins/
   description: 'James Sevedge'
