@@ -232,7 +232,7 @@ await uploadFiles();
 
 Now `uploadFiles` is starting to look pretty good, but just because code is not duplicated does not mean it shouldn't be extracted.  If there is a block of code that makes sense to extract out, do it.
 
-Actions To Take: 1) Extract out `login` functionality and use it in `uploadFiles`
+Actions To Take: 1) Extract out `login` functionality and use it in `uploadFiles` 2) Extract out `_generateAndUploadFile` functionality and use it in `uploadFiles`
 
 ```javascript
 const axios = require('axios');
