@@ -33,4 +33,4 @@ As you can see everything in this diagram flows from the API specification docum
 - Curated Consumer Documentation: [Hugo](https://github.com/gohugoio/hugo)
 - SDK Generator: [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator)
 
-Thankfully there is open-source tooling which is available for use, you just have to pick a tool for the problem and hope that when you hit a blocker you will have used it and understand it enough to be able to contribute changes back... easier said than done!
+Thankfully there is open-source tooling which is available for use, you just have to pick a tool for the problem and hope that when you hit a blocker you will have used it and understand it enough to be able to contribute changes back.

@@ -1,18 +1,6 @@
-# Custom Theme
+## Introduction
 
 **NOTE**: This is a customized theme building on the hard work of the creators of the Ananke theme.
-
-## Changelog
-
-- Added support for Google Analytics 4 Measurement ID
-
-## Original README contents
-
-The intent of this theme is to provide a solid starting place for Hugo sites with basic features and include best practices for performance, accessibility, and rapid development.
-
-![screenshot](https://raw.githubusercontent.com/budparr/gohugo-theme-ananke/master/images/screenshot.png)
-
-[DEMO](https://gohugo-ananke-theme-demo.netlify.com/)
 
 Features
 
@@ -53,29 +41,15 @@ Also includes examples of Hugo Features or Functions:
 
 This theme uses the "Tachyons" CSS library. This will allow you to manipulate the design of the theme by changing class names in HTML without touching the original CSS files. For more information see the [Tachyons website](http://tachyons.io/).
 
-
-
-## Installation
-
-Inside the folder of your Hugo site run:
-
-    $ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-
-For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
-
-
-
 ## Getting started
 
 After installing the theme successfully it requires a just a few more steps to get your site running.
-
 
 ### The config file
 
 Take a look inside the [`exampleSite`](https://github.com/budparr/gohugo-theme-ananke/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](https://github.com/budparr/gohugo-theme-ananke/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](https://github.com/budparr/gohugo-theme-ananke/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
 You may need to delete the line: `themesDir = "../.."`
-
 
 ### Add comments
 
@@ -97,8 +71,6 @@ If you would like to hide the header text on the featured image on a page, set `
 You don't need an image though. The default background color is black, but you can change the color, by changing the default color class in the config.toml file. Choose a background color from any on the [Tachyons](http://tachyons.io/docs/themes/skins/) library site, and preface it with "bg-"
 
 example: `background_color_class = "bg-blue"` or `background_color_class = "bg-gray"`
-
-
 
 ### Activate the contact form
 
@@ -172,6 +144,6 @@ set HUGO_ENV=production
 hugo
 ```
 
-## Contributing
+## Changelog
 
-If you find a bug or have an idea for a feature, feel free to use the [issue tracker](https://github.com/budparr/gohugo-theme-ananke/issues) to let me know.
+- Added support for Google Analytics 4 Measurement ID
