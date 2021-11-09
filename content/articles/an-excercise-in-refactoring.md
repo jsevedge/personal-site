@@ -87,7 +87,7 @@ How hard was it tell the purpose of the code and did the code "smell" at all to 
 
 The first thing you notice may be how hard it is to understand what the code is doing, so let's add some comments (for now, more on that later) to help the developers reading this code.
 
-Actions to take: 1) Added some comments to `uploadFiles`
+Actions to take: 1) Add some comments to `uploadFiles`
 
 ```javascript
 const axios = require('axios');
