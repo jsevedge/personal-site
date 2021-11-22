@@ -2,7 +2,6 @@
 title: "Contact"
 authors: ["James Sevedge"]
 meta_desc: "Contact Page"
-date: 2020-05-20
 ---
 
 **If you would like to reach out to me, I will do my best to respond.  But read through the following first:**
