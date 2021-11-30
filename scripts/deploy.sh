@@ -2,15 +2,11 @@
 
 set -e
 
-# Build Site
+# build Site
 HUGO_ENV="production" hugo
 
-# Publish Site
+# publish Site
 cd public
 git add .
-commit_msg="rebuilding site $(date)"
-if [ -n "$*" ]; then
-	commit_msg="$*"
-fi
-git commit -m "$commit_msg"
+git commit -m "rebuilding site $(date)"
 git push origin master
