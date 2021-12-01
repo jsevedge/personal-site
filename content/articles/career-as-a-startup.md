@@ -3,6 +3,8 @@ title: "Treat your Career Like a Startup"
 author: "James Sevedge"
 meta_desc: ""
 date: 2021-10-19
+show_reading_time: true
+tags: []
 ---
 
 Lately I have been having discussions with both close friends and distant acquaintances on "leveling up" in your career, along the way I have formulated a few thoughts on this topic.

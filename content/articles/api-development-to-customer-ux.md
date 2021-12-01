@@ -3,6 +3,8 @@ title: "API Development (Beyond the Specification Document)"
 author: "James Sevedge"
 meta_desc: ""
 date: 2020-05-20
+show_reading_time: true
+tags: []
 ---
 
 Creating an API that is well thought out, scales and adopts industry standards can be quite difficult.  Creating the API while keeping the end consumer User Experience (UX) at the forefront adds even more cognitive load, however the payoff is worth it to stay disciplined and consider it from the start.  Let's talk about what that flow might look like at a high level including some example tooling and processes.

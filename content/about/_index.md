@@ -11,4 +11,4 @@ I am a Software Engineer in the Seattle area who enjoys creating software and so
 
 ## Hobbies
 
-Playing basketball (in the summer), snowboarding (in the winter) and spending time with my kiddos.
+Playing basketball (in the summer), snowboarding (in the winter), reading all types of literature and spending time with my wife and kiddos.

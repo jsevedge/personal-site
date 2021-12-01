@@ -1,5 +1,4 @@
 {{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
   {{ partial "page-header.html" . }}
 {{ end }}
 
@@ -8,10 +7,6 @@
   <article class="flex-wrap w-100 ph4">
     <header class="mt4 w-100 tc">
       <aside class="instapaper_ignoref b helvetica tracked">
-          {{/*
-          CurrentSection allows us to use the section title instead of inferring from the folder.
-          https://gohugo.io/variables/page/#section-variables-and-methods
-          */}}
         {{with .CurrentSection.Title }}{{. | upper }}{{end}}
       </aside>
       {{ partial "social-share.html" . }}
@@ -29,40 +24,20 @@
           </strong>
       </p>
       {{ end }}
-      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+
       <time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{- .Date.Format "January 2, 2006" -}}
       </time>
 
-      {{/*
-          Show "reading time" and "word count" but only if one of the following are true:
-          1) A global config `params` value is set `show_reading_time = true`
-          2) A section front matter value is set `show_reading_time = true`
-          3) A page front matter value is set `show_reading_time = true`
-        */}}
       {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
         <span class="f6 mv4 dib tracked"> - {{ .ReadingTime}} minutes read</span>
         <span class="f6 mv4 dib tracked"> - {{ .WordCount}} words</span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray center w-100 w-75-ns">
-      {{- .Content -}}
+    <div class="nested-copy-line-height lh-copy {{ $.Param "article_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray center w-100 w-75-ns">
       {{- partial "tags.html" . -}}
-      <div class="mt6 instapaper_ignoref">
-      {{ if .Site.DisqusShortname }}
-        {{ template "_internal/disqus.html" . }}
-      {{ end }}
-      {{ if .Site.Params.commentoEnable }}
-        {{- partial "commento.html" . -}}
-      {{ end }}
-      </div>
+      {{- .Content -}}
     </div>
-
     {{- partial "subscribe.html" . -}}
-
-    <aside class="w-30-l mt6-l">
-      {{- partial "menu-contextual.html" . -}}
-    </aside>
-
   </article>
 {{ end }}

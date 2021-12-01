@@ -3,6 +3,8 @@ title: "An Excercise In Refactoring"
 author: "James Sevedge"
 meta_desc: ""
 date: 2021-11-09
+show_reading_time: true
+tags: []
 ---
 
 In my humble experience any discussion about refactoring should start with [Refactoring](https://martinfowler.com/books/refactoring.html) (Martin Fowler/Kent Beck) and [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/) (Robert Martin).  Having at least a rudimentary understanding of the design patterns presented in [Gang of Four](https://www.amazon.com/gp/product/0201633612/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0201633612&linkCode=as2&tag=martinfowlerc-20) is helpful too.
