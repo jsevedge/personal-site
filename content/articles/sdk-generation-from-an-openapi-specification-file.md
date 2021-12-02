@@ -43,7 +43,7 @@ The technical issue with this pattern of course is how to propagate out changes 
 
 **Existing SDK Generation Tooling**
 
-Most SDK generation tooling research starts by googling "SDK Generation Tool" and ends with finding [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator), which is listed on [openapi.tools](https://openapi.tools/#sdk).  OpenAPI Generator is probably the the most popular open-source OpenAPI based SDK generator available, it was a fork of the original [Swagger CodeGen](https://swagger.io/tools/swagger-codegen/).
+Most SDK generation tooling research starts by googling "SDK Generation Tool" and ends with finding [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator), which is listed on [openapi.tools](https://openapi.tools/#sdk).  OpenAPI Generator is probably the most popular open-source OpenAPI based SDK generator available, it was a fork of the original [Swagger CodeGen](https://swagger.io/tools/swagger-codegen/).
 
 If you use one of these common generators they take an [OpenAPI](https://www.openapis.org) specification file which describes the service API endpoints in as much detail as you like and uses common properties such as HTTP methods, HTTP uri and so on to generate bindings for 1+ programming languages.  If the default output works for you without additional customization for company branding, etc. you can stop here.  If you either don't want to learn how to customize those bindings (see [OpenAPI Generator templating](https://openapi-generator.tech/docs/templating/)) or you want to understand how SDK generation works in more detail let's dive into the details.
 
