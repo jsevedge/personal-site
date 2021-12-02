@@ -231,17 +231,17 @@ Most of this initial set of problems are solvable simply by determining the mini
 Here are some examples of popular industry API providers and the approach they took to SDK generation.
 
 - Microsoft Azure:
-    - Specification Location: https://github.com/Azure/azure-rest-api-specs
-    - SDK Generator: https://github.com/Azure/autorest, https://github.com/Azure/autorest/blob/master/docs/trampoline.md, https://github.com/Azure/azure-rest-api-specs/tree/master/specification/compute/resource-manager
+    - Specification Location: [https://github.com/Azure/azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs)
+    - SDK Generator: [https://github.com/Azure/autorest](https://github.com/Azure/autorest), [https://github.com/Azure/autorest/blob/master/docs/trampoline.md](https://github.com/Azure/autorest/blob/master/docs/trampoline.md), [https://github.com/Azure/azure-rest-api-specs/tree/master/specification/compute/resource-manager](https://github.com/Azure/azure-rest-api-specs/tree/master/specification/compute/resource-manager)
 - AWS:
-    - Specification Location: https://github.com/boto/boto3/tree/master/boto3/data, https://github.com/aws/aws-sdk-js/blob/master/apis, 
+    - Specification Location: [https://github.com/boto/boto3/tree/master/boto3/data](https://github.com/boto/boto3/tree/master/boto3/data), [https://github.com/aws/aws-sdk-js/blob/master/apis](https://github.com/aws/aws-sdk-js/blob/master/apis), 
     - SDK Generator: It appears they manually define the "apis" and SDK methods using JSON and use that during generation
 - GCP:
-    - Specification Location: https://github.com/googleapis/googleapis
-    - SDK Generator: https://google.aip.dev/client-libraries/4210, https://github.com/googleapis/gapic-generator, https://github.com/googleapis/gapic-generator-python
+    - Specification Location: [https://github.com/googleapis/googleapis](https://github.com/googleapis/googleapis)
+    - SDK Generator: [https://google.aip.dev/client-libraries/4210](https://google.aip.dev/client-libraries/4210), [https://github.com/googleapis/gapic-generator](https://github.com/googleapis/gapic-generator), [https://github.com/googleapis/gapic-generator-python](https://github.com/googleapis/gapic-generator-python)
 - Kubernetes
-    - Specification Location: https://github.com/kubernetes/kubernetes/tree/master/api/openapi-spec, https://github.com/kubernetes-client
-    - SDK Generator: It looks like they might be using openapi-generator with their own customization. Here are the scripts they are using to invoke the generator https://github.com/kubernetes-client/gen
+    - Specification Location: [https://github.com/kubernetes/kubernetes/tree/master/api/openapi-spec](https://github.com/kubernetes/kubernetes/tree/master/api/openapi-spec), [https://github.com/kubernetes-client](https://github.com/kubernetes-client)
+    - SDK Generator: It looks like they might be using openapi-generator with their own customization. Here are the scripts they are using to invoke the generator [https://github.com/kubernetes-client/gen](https://github.com/kubernetes-client/gen)
 
 
 **Final Thoughts**
