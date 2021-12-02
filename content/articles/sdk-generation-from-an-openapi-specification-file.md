@@ -49,6 +49,8 @@ If you use one of these common generators they take an [OpenAPI](https://www.ope
 
 **Building an SDK Generator**
 
+In this section let's walk through the steps I took to go from an OpenAPI specification document to a working set of python client bindings.
+
 1) Given a simple OpenAPI specification document
 
   ```yaml
