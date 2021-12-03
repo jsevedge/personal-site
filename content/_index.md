@@ -1,4 +1,4 @@
 ---
 authors: ["James Sevedge"]
-title: " "
+title: "Home"
 ---
