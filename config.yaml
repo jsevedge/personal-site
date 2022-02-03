@@ -34,3 +34,7 @@ params:
   rss: 'default'
   recent_posts_number: 2
   google_analytics_id: 'G-Q5B427HWSJ' # Google Analytics 4 Measurement ID
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
