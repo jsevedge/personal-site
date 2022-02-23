@@ -54,7 +54,7 @@ And this is a preview of how the light show turned out.
 
 {{< youtube M-SK5_alK1A >}}
 
-I spent probably about 4 hours getting from no idea how to create a light show for my car to understanding and creating one from scratch so kudos to the Tesla engineering team for good documentation and picking a tool (xLights) that has a decent interface for creating a sequence.  I had a blast creating this light show and intend to create more in the future that makes full use of the advanced effects including tailgate open/close and light ramping.
+I spent roughly 4 hours getting from no idea how to create a light show for my car to understanding and creating one from scratch so kudos to the Tesla engineering team for good documentation and picking a tool (xLights) that has a decent interface for creating a sequence.  I had a blast creating this light show and intend to create more in the future that makes full use of the advanced effects including tailgate open/close and light ramping.
 
 One final note is it did occur to me that it would be nice to have a single USB with multiple custom light shows and the display would provide a picker with the list of shows available.  I filed a Github RFE which was promptly closed as a dupe of [#8](https://github.com/teslamotors/light-show/issues/8).  When I took a look at that issue it appears the team appreciated the suggestions but did not commit to implementing it.  So a typical Tesla response.
 
