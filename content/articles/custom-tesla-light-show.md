@@ -7,7 +7,7 @@ show_reading_time: true
 tags: []
 ---
 
-In late December Tesla pushed out a new major update to my Model Y dubbed ["version 11.0"](https://www.tesla.com/blog/introducing-software-v11-0) which included a revamped UI and a bunch of new features.  Probably the coolest feature released was the Light Show which allows creators to use a sequence show tool called xLights to turn on/off or ramp various lights, open/close the windows, open/close the trunk, etc.  They also included a default light show which at the time was holiday themed that got a good reaction by friends/family, pretty sweet to get OTA updates on a car right?  Anyways I finally got around to building a custom light show and figured I would take notes as I went and write about it in case others find it interesting and would like to do the same.
+In late December Tesla pushed out a new major update to my Model Y dubbed ["version 11.0"](https://www.tesla.com/blog/introducing-software-v11-0) which included a revamped UI and a bunch of new features.  Probably the coolest feature released was the Light Show which allows creators to use a sequence show tool called xLights to turn on/off or ramp various lights, open/close the windows, open/close the trunk, etc.  The Tesla also included a default light show which at the time was holiday themed and got a good reaction from friends/family, pretty sweet to get OTA updates on a car right?  Anyways I finally got around to building a custom light show and figured I would take notes as I went and write about it in case others find it interesting and would like to do the same.
 
 ### Documentation
 
