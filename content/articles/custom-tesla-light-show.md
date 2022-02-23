@@ -1,5 +1,5 @@
 ---
-title: "Building a Custom Tesla Light Show"
+title: "Creating a Custom Tesla Light Show"
 author: "James Sevedge"
 meta_desc: ""
 date: 2022-02-22
