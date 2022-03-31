@@ -56,7 +56,7 @@ $ tail data.csv
 "Jan 03, 2000","1,455.20","1,469.20","1,478.00","1,438.40","-","-0.95%"
 ```
 
- Now of course I could import this data set into Excel, Tableau, etc. to perform data visualization but the point of this exercise was to evaluate Jupyter notebooks which allow for not only data visualization but also data preparation ([pandas](https://pandas.pydata.org)), machine learning ([scikit-learn](https://scikit-learn.org/stable/)), etc.  Not only does it have greater flexibility in functionality but it is a great format for doing computational storytelling given the free form ability to add rows of markdown mixed in with the computational rows.
+ Now of course I could import this data set into Excel, Tableau, etc. to perform data visualization but the point of this exercise was to evaluate Jupyter notebooks which allow for not only data visualization but also data preparation ([pandas](https://pandas.pydata.org)), machine learning ([scikit-learn](https://scikit-learn.org/stable/)), etc.  In general it has greater flexibility in functionality as the design allows for computational storytelling given the free form ability to add rows of markdown mixed in with the computational rows.
 
  ### Creating the notebook
 
@@ -64,7 +64,7 @@ Most of the learning curve came while trying to undertand how to do data prepara
 
  ### Exporting the notebook
 
-Once I had a working notebook I want to export it so I can share it with other people easily.  The Jupyter CLI has a command call `jupyter nbconvert` with support for a variety of output formats including popular options such as RST, HTML and PDF.  Getting an HTML file is perfect as I can embed that as an iframe and share it right here in this article.  I wrote a script to automate generating HTML from a folder of 1+ notebooks, if you take out the for loops and boilerplate this is the command I ended up running to turn the `.ipynb` notebook file into `.html`.
+Once I had a working notebook I wanted to export it so I could share it with other people easily.  The Jupyter CLI has a command called `jupyter nbconvert` with support for a variety of output formats including popular options such as RST, HTML and PDF.  Getting an HTML file is perfect as I can embed that as an iframe and share it right here in this article.  I wrote a script to automate generating HTML from a folder of 1+ notebooks, if you take out the for loops and boilerplate this is the command I ended up running to turn the `.ipynb` notebook file into `.html`.
 
 ```bash
 $ jupyter nbconvert --execute --to html notebooks/stock-analysis/notebook.ipynb --stdout > static/notebook-stock-analysis.html
@@ -78,4 +78,4 @@ Looks like stocks have been doing OK.  Definitely no need for any sort of discla
 
 ### Recap
 
-I had fun learning how to use Jupyter notebooks and authoring my first notebook.  I forsee using it more in the future for scenarios where Tableau is too heavy handed a solution or perhaps to glean insights using unsupervised machine learning given the right data set.  I would like to explore the JupyterLab, JupyterHub and other projects that enable authoring and publishing like Voila.
+Authoring a Jupyter notebook from scratch and understanding the core data analysis libraries did not end up being a massive learning curve so the experience was great overall.  I may use it more in the future for scenarios where Tableau is too heavy handed a solution or perhaps to glean insights using unsupervised machine learning given the right data set.  I would like to explore the JupyterLab, JupyterHub and other projects that enable authoring and publishing like Voila.
