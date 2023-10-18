@@ -7,7 +7,7 @@ enableRobotsTXT: true
 languageCode: en-us
 publishDir: public
 theme: custom
-title: 'James Sevedge'
+title: 'James Sevedge (Test)'
 menu:
   main:
   - identifier: articles
